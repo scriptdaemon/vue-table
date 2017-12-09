@@ -2,18 +2,25 @@
   "name": "vue-table",
   "version": "0.0.0",
   "description": "`vtable` component for Vue.js.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/scriptdaemon/vue-table.git"
-  },
-  "author": "Kenneth Williams",
+  "homepage": "https://github.com/scriptdaemon/vue-table#readme",
+  "bugs": "https://github.com/scriptdaemon/vue-table/issues",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/scriptdaemon/vue-table/issues"
+  "author": "Kenneth Williams",
+  "main": "src/main.js",
+  "repository": "scriptdaemon/vue-table",
+  "scripts": {
+    "build": "webpack --progress",
+    "start": "webpack-dev-server --hot --open"
   },
-  "homepage": "https://github.com/scriptdaemon/vue-table#readme"
+  "dependencies": {
+    "vue": "^2.5.9"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.9",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.5"
+  }
 }
+
